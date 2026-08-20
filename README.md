@@ -33,9 +33,9 @@
 <tr>
   <td width="50%" valign="top">
     <h4>🧭 ScoutLocal</h4>
-    <em>Fullstack Software Engineer - May 2026–Present</em>
+    <em>Fullstack Software Engineer (Co-op) - May 2026–Present</em>
     <p>Local-discovery platform (web + mobile + API). Built the consumer web app, hardened mobile session security, and solely own release engineering across 6 Vercel deployments.</p>
-    <sub>Next.js 15 · React 19 · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
+    <sub>Next.js 15 · React 19 · React Native · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
   </td>
   <td width="50%" valign="top">
     <h4>🎬 AniTrack</h4>
@@ -49,7 +49,7 @@
 <tr>
   <td width="50%" valign="top">
     <h4>📈 UpTrack</h4>
-    <em>Personal AWS/DevOps Project - Aug 2026</em>
+    <em>Personal AWS/DevOps Project - Jul 2026</em>
     <p>Uptime/status monitor built to demonstrate real AWS infrastructure skills over PaaS. EC2 + PM2 backend that's never directly internet-facing - reachable only through API Gateway -> VPC Link -> an internal ALB - deployed via a GitHub Actions CI/CD pipeline.</p>
     <sub>EC2 · API Gateway · ALB · CloudFront · S3 · GitHub Actions</sub>
     <br />
