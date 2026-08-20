@@ -34,13 +34,25 @@
   <td width="50%" valign="top">
     <h4>🧭 ScoutLocal</h4>
     <em>Fullstack Software Engineer (Co-op) - May 2026–Present</em>
-    <p>Local-discovery platform (web + mobile + API). Built the consumer web app, hardened mobile session security, and solely own release engineering across 6 Vercel deployments.</p>
-    <sub>Next.js 15 · React 19 · React Native · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
+    <p>Local-discovery platform (web + mobile + API). One of two engineers on the founding team, owning the product stack end to end.</p>
+    <ul>
+      <li>Built core web surfaces: Clerk-based auth, a custom "Today" feed with backfill pooling, a persistent AI chat feature, and a multi-polygon interactive map</li>
+      <li>Rearchitected mobile session handling to close a cross-user session-leakage risk on shared devices</li>
+      <li>Sole owner of DevOps: designed the release workflow for all 6 Vercel apps plus a custom environment-sync script</li>
+      <li>Authored the full GitHub Actions CI/CD pipeline (PR verification, migration gating, staging→prod promotion) and shipped i18n across 4 languages; merged 60+ PRs in the first 10 weeks</li>
+    </ul>
+    <sub>Next.js 15 · React 19 · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
   </td>
   <td width="50%" valign="top">
     <h4>🎬 AniTrack</h4>
     <em>Personal Project - Apr–Jul 2026</em>
-    <p>Anime watchlist and discovery app - search, watchlists, and LLM-backed recommendations. Shipped as two independently deployed services sharing a Neon Postgres catalog, with tiered response caching and an automated daily catalog sync.</p>
+    <p>Anime watchlist and discovery app - search, watchlists, and LLM-backed recommendations - built solo, backend to frontend.</p>
+    <ul>
+      <li>Architected as two independently deployed services (Next.js 16 on Vercel, FastAPI on Render) sharing a single Neon Postgres catalog</li>
+      <li>Built a tiered caching strategy and a daily catalog sync automated via a scheduled GitHub Action</li>
+      <li>Built an OAuth-only auth flow (Google/GitHub) with httpOnly JWT sessions and cross-provider account linking</li>
+      <li>Root-caused a recurring async SQLAlchemy bug class and a live production database-connection incident</li>
+    </ul>
     <sub>Next.js 16 · FastAPI · SQLAlchemy · PostgreSQL (Neon) · GitHub Actions</sub>
     <br />
     <a href="https://watchanitrack.com">🔗 watchanitrack.com</a>
@@ -49,8 +61,14 @@
 <tr>
   <td width="50%" valign="top">
     <h4>📈 UpTrack</h4>
-    <em>Personal AWS/DevOps Project - Jul 2026</em>
-    <p>Uptime/status monitor built to demonstrate real AWS infrastructure skills over PaaS. EC2 + PM2 backend that's never directly internet-facing - reachable only through API Gateway -> VPC Link -> an internal ALB - deployed via a GitHub Actions CI/CD pipeline.</p>
+    <em>Personal AWS/DevOps Project - Jul 2026–Present</em>
+    <p>Uptime/status monitor built specifically to demonstrate real AWS infrastructure skills over another PaaS deploy.</p>
+    <ul>
+      <li>Backend on EC2 + PM2 (not serverless), fully private - reachable only through API Gateway -> VPC Link -> an internal ALB, never exposed directly to the internet</li>
+      <li>Security groups scoped SG-to-SG at every hop instead of open CIDR ranges</li>
+      <li>GitHub Actions CI/CD deploying frontend (S3/CloudFront) and backend (EC2 via SSH, zero-downtime PM2 reload, automated Prisma migrations) independently on every push</li>
+      <li>Root-caused a CORS bug to API Gateway silently overriding backend response headers, and a deploy failure to an EC2 OOM kill during dependency installs</li>
+    </ul>
     <sub>EC2 · API Gateway · ALB · CloudFront · S3 · GitHub Actions</sub>
     <br />
     <a href="https://d3tqalcvoccwnc.cloudfront.net">🔗 live demo</a>
@@ -58,7 +76,12 @@
   <td width="50%" valign="top">
     <h4>🚚 Hauler Inc.</h4>
     <em>Industry Sponsored Project - Jan–Apr 2026</em>
-    <p>Refactored and stabilized React Native components across a legacy mobile codebase, fixing inherited defects and shipping new features.</p>
+    <p>Contributed to a legacy React Native (TypeScript) mobile codebase as part of a BCIT industry-sponsored project.</p>
+    <ul>
+      <li>Refactored components across multiple screens into typed, reusable modules adopted as the standard pattern for new feature development</li>
+      <li>Diagnosed and resolved inherited frontend defects, reducing recurring UI issues across the mobile app</li>
+      <li>Shipped new features alongside the defect fixes across the sponsored engagement</li>
+    </ul>
     <sub>React Native · TypeScript · Expo</sub>
   </td>
 </tr>
