@@ -41,19 +41,19 @@
       <li>Owned DevOps end-to-end: architected the release workflow and full GitHub Actions CI/CD pipeline (PR verification, migration gating, staging→prod promotion) across all 6 Vercel apps, plus a custom environment-sync script</li>
       <li>Delivered i18n support across 4 languages (EN/FR/HI/ZH) with an automated validator that catches missing translation keys before merge; merged 60+ PRs in the first 10 weeks</li>
     </ul>
-    <sub>Next.js 15 · React 19 · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
+    <sub>Next.js · React · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
   </td>
   <td width="50%" valign="top">
     <h4>🎬 AniTrack</h4>
     <em>Personal Project — Apr–Jul 2026</em>
     <p>Anime watchlist and discovery app — search, watchlists, and LLM-backed recommendations — built solo, backend to frontend.</p>
     <ul>
-      <li>Architected as two independently deployed services (Next.js 16 on Vercel, FastAPI on Render) sharing a single Neon Postgres catalog</li>
+      <li>Architected as two independently deployed services (Next.js on Vercel, FastAPI on Render) sharing a single Neon Postgres catalog</li>
       <li>Built a tiered caching strategy and a daily catalog sync automated via a scheduled GitHub Action</li>
       <li>Built an OAuth-only auth flow (Google/GitHub) with httpOnly JWT sessions and cross-provider account linking</li>
       <li>Root-caused a recurring async SQLAlchemy bug class and a live production database-connection incident</li>
     </ul>
-    <sub>Next.js 16 · FastAPI · SQLAlchemy · PostgreSQL (Neon) · GitHub Actions</sub>
+    <sub>Next.js · FastAPI · SQLAlchemy · PostgreSQL (Neon) · GitHub Actions</sub>
     <br />
     <a href="https://watchanitrack.com">🔗 watchanitrack.com</a>
   </td>
