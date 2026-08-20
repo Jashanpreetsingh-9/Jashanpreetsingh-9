@@ -10,6 +10,7 @@
   <a href="https://www.linkedin.com/in/jashanpreet-singh7"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:jashanpreetsingh9@my.bcit.ca"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://watchanitrack.com"><img src="https://img.shields.io/badge/AniTrack-Live%20Demo-2B4C7E?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://d3tqalcvoccwnc.cloudfront.net"><img src="https://img.shields.io/badge/UpTrack-Live%20Demo-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" /></a>
 </p>
 
 </div>
@@ -30,13 +31,13 @@
 
 <table>
 <tr>
-  <td width="33%" valign="top">
+  <td width="50%" valign="top">
     <h4>🧭 ScoutLocal</h4>
     <em>Fullstack Software Engineer - May 2026–Present</em>
     <p>Local-discovery platform (web + mobile + API). Built the consumer web app, hardened mobile session security, and solely own release engineering across 6 Vercel deployments.</p>
     <sub>Next.js 15 · React 19 · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
   </td>
-  <td width="33%" valign="top">
+  <td width="50%" valign="top">
     <h4>🎬 AniTrack</h4>
     <em>Personal Project - Apr–Jul 2026</em>
     <p>Anime watchlist and discovery app - search, watchlists, and LLM-backed recommendations. Shipped as two independently deployed services sharing a Neon Postgres catalog, with tiered response caching and an automated daily catalog sync.</p>
@@ -44,7 +45,17 @@
     <br />
     <a href="https://watchanitrack.com">🔗 watchanitrack.com</a>
   </td>
-  <td width="33%" valign="top">
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>📈 UpTrack</h4>
+    <em>Personal AWS/DevOps Project - Aug 2026</em>
+    <p>Uptime/status monitor built to demonstrate real AWS infrastructure skills over PaaS. EC2 + PM2 backend that's never directly internet-facing - reachable only through API Gateway -> VPC Link -> an internal ALB - deployed via a GitHub Actions CI/CD pipeline.</p>
+    <sub>EC2 · API Gateway · ALB · CloudFront · S3 · GitHub Actions</sub>
+    <br />
+    <a href="https://d3tqalcvoccwnc.cloudfront.net">🔗 live demo</a>
+  </td>
+  <td width="50%" valign="top">
     <h4>🚚 Hauler Inc.</h4>
     <em>Industry Sponsored Project - Jan–Apr 2026</em>
     <p>Refactored and stabilized React Native components across a legacy mobile codebase, fixing inherited defects and shipping new features.</p>
@@ -73,7 +84,7 @@
 
 **Infra & Tools**
 <br />
-<img src="https://skillicons.dev/icons?i=vercel,githubactions,docker,git,github,postman,jira,linux" />
+<img src="https://skillicons.dev/icons?i=aws,vercel,githubactions,docker,git,github,postman,jira,linux" />
 
 ---
 
