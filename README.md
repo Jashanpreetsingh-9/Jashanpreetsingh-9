@@ -7,7 +7,7 @@
 </a>
 
 <p>
-  <a href="https://www.linkedin.com/in/jashanpreet-singh7"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/jashanpreet-singh9"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:j.rattanpal9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://watchanitrack.com"><img src="https://img.shields.io/badge/AniTrack-Live%20Demo-2B4C7E?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://d3tqalcvoccwnc.cloudfront.net"><img src="https://img.shields.io/badge/UpTrack-Live%20Demo-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" /></a>
@@ -38,7 +38,7 @@
     <ul>
       <li>Shipped core web surfaces: Clerk-based auth, a custom "Today" feed with backfill pooling, a persistent AI chat feature, and a multi-polygon interactive map</li>
       <li>Rearchitected mobile session handling to close a cross-user session-leakage risk on shared devices</li>
-      <li>Owned DevOps end-to-end: architected the release workflow and full GitHub Actions CI/CD pipeline (PR verification, migration gating, staging→prod promotion) across all 6 Vercel apps, plus a custom environment-sync script</li>
+      <li>Owned DevOps end-to-end: architected the release workflow and full GitHub Actions CI/CD pipeline (PR verification, migration gating, staging→prod promotion) across all 6 Vercel apps, plus a custom script that eliminated dozens of manual env-variable entries per app</li>
       <li>Delivered i18n support across 4 languages (EN/FR/HI/ZH) with an automated validator that catches missing translation keys before merge; merged 60+ PRs in the first 10 weeks</li>
     </ul>
     <sub>Next.js · React · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
@@ -78,8 +78,8 @@
     <em>Frontend Developer (Industry Sponsored Project) — Jan–Apr 2026</em>
     <p>Contributed to a legacy React Native (TypeScript) mobile codebase as part of a BCIT industry-sponsored project.</p>
     <ul>
-      <li>Refactored production components across multiple screens into typed, reusable modules adopted as the standard pattern for new feature development</li>
-      <li>Diagnosed inherited frontend defects and shipped new features, cutting recurring UI bug reports across the mobile app</li>
+      <li>Refactored production components into typed, reusable modules, cutting code redundancy and becoming the standard pattern for new feature development</li>
+      <li>Diagnosed inherited frontend defects and shipped new features, cutting recurring UI bug reports by roughly 50%</li>
     </ul>
     <sub>React Native · TypeScript · Expo</sub>
   </td>
@@ -123,7 +123,7 @@
 
 ### 📫 Let's Connect
 
-<a href="https://www.linkedin.com/in/jashanpreet-singh7"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/jashanpreet-singh9"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:j.rattanpal9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 <sub>Vancouver, BC 🇨🇦</sub>
