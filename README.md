@@ -19,7 +19,7 @@
 ### 👋 About Me
 
 - 🎓 Computer Information Technology @ **BCIT** (Expected Dec 2026)
-- 🚀 Full-stack engineer on **ScoutLocal**'s founding team, where I own the entire product stack — web, mobile, API, and DevOps — solo
+- 🚀 Full-stack engineer on **ScoutLocal**'s founding team, where I own the entire product stack - web, mobile, API, and DevOps - solo
 - 🧩 Comfortable end-to-end: shipping product UI, designing backend/data models, and running the CI/CD + release pipeline behind it
 - 🌍 Shipped multi-locale (EN/FR/HI/ZH) production apps and solo-deployed 6 separate app environments
 - 🛠️ Currently deep in Next.js 15, React Native/Expo, Prisma, and Postgres
@@ -32,21 +32,21 @@
 <tr>
   <td width="33%" valign="top">
     <h4>🧭 ScoutLocal</h4>
-    <em>Fullstack Software Engineer — May 2026–Present</em>
+    <em>Fullstack Software Engineer - May 2026–Present</em>
     <p>Local-discovery platform (web + mobile + API). Built the consumer web app, hardened mobile session security, and solely own release engineering across 6 Vercel deployments.</p>
     <sub>Next.js 15 · React 19 · Expo · Node.js · Prisma · PostgreSQL · Clerk</sub>
   </td>
   <td width="33%" valign="top">
     <h4>🎬 AniTrack</h4>
-    <em>Personal Project — Mar–Jul 2026</em>
-    <p>Anime tracking app with watchlists, ratings, and LLM-backed recommendations — built solo, backend to frontend, and deployed to production on a custom domain.</p>
-    <sub>Next.js · FastAPI · SQLAlchemy · PostgreSQL (Neon) · Docker</sub>
+    <em>Personal Project - Apr–Jul 2026</em>
+    <p>Anime watchlist and discovery app - search, watchlists, and LLM-backed recommendations. Shipped as two independently deployed services sharing a Neon Postgres catalog, with tiered response caching and an automated daily catalog sync.</p>
+    <sub>Next.js 16 · FastAPI · SQLAlchemy · PostgreSQL (Neon) · GitHub Actions</sub>
     <br />
     <a href="https://watchanitrack.com">🔗 watchanitrack.com</a>
   </td>
   <td width="33%" valign="top">
     <h4>🚚 Hauler Inc.</h4>
-    <em>Industry Sponsored Project — Jan–Apr 2026</em>
+    <em>Industry Sponsored Project - Jan–Apr 2026</em>
     <p>Refactored and stabilized React Native components across a legacy mobile codebase, fixing inherited defects and shipping new features.</p>
     <sub>React Native · TypeScript · Expo</sub>
   </td>
